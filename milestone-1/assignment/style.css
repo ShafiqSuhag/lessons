@@ -82,6 +82,15 @@ h2{
 #about_me_details{
     padding-bottom: 50px;
     padding-top: 50px;
+    
+}
+#about_me_details h1{
+    margin: 0;
+}
+#about_me_details p{
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 /* 2: about me section           END  */
 
@@ -124,11 +133,12 @@ h2{
     
 }
 .blog_item h2{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 800;
 }
 .blog_item p{
     font-size: 18px;
+    
 }
 #blog_item_middle{
     margin-left: 4%;
