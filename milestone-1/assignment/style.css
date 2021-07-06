@@ -2,11 +2,51 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 h2{
     font-size: 36px;
     font-weight: 600;
 }
+
+
+/* 1: hero section             start  */
+
+
+/* #hero_section{
+
+} */
+#hero_section h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+}
+#hero_section p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.link-gradiant{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    background-image: linear-gradient(
+45deg
+, red,orange);
+    padding-left: 34px;
+    padding-right: 35px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    border-radius: 100px;
+    
+}
+/* 1: hero section             end  */
+/* 2: about me section           start  */
+
+
 .flexible_container{
     display: flex;
     align-items: center;
@@ -26,23 +66,15 @@ h2{
 .half-width h1{
     font-size: 50px;
 }
-.link-gradiant{
-    text-decoration: none;
-    background-image: linear-gradient(45deg, red,orange);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: 500;
-    border-radius: 20px;
-    
-}
-#about-me{
+
+#about_me{
     background-image: url(images/shapes/frame-58.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     
+}
+#about_me p{
+    width: 500px;
 }
 #about_me_image{
     padding-top: 100px;
@@ -55,6 +87,17 @@ h2{
     align-items: flex-end;
 }
 
+#recipies_title{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+#recipies_title h2{
+    color: #676767;
+    font-size: 36px;
+    font-weight: 600;
+}
+
 /* recipie */
 #receipe_subtitile {
     margin-left: 25%;
@@ -65,23 +108,66 @@ h2{
     display: flex;
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 120px;
 }
 .blog_item{
     width: 33.3%;
+    padding:20px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 .blog_item img{
+    border-radius: 30px;
      width: 100%;
-    /* margin:10px; */
-    /* padding: 10px;
-    box-shadow: 10px 10px 50px;  */
+     height: 50%;
+    
+}
+.blog_item h2{
+    font-size: 28px;
+    font-weight: 800;
+}
+.blog_item p{
+    font-size: 18px;
 }
 #blog_item_middle{
-    padding-left: 2%;
-    padding-right: 2%;
-    /* margin-left: 3%;
-    margin-right: 3%; */
+    margin-left: 4%;
+    margin-right: 4%;
+
 }
-.box_shadow{
+.counter_box{
     display: flex;
-    box-shadow: 10px 10px 50px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+    margin-bottom: 70px;
+
+    
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 13%;
+
+    border-radius: 20px;
 }
+.count_item{
+    width: 33.33%;
+}
+.count_number{
+    font-size: 48px;
+    font-weight: 600;
+    display: block;
+}
+.count_title{
+    font-weight: 16px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+    min-height: 256px;
+
+}
+
+/* #counter_item_left{
+    padding-left: 13%;
+} */
