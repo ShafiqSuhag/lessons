@@ -21,10 +21,41 @@ h2{
         margin-left: 70px;
         margin-right: 70px;
     }
+    a{
+        text-decoration: none;
+    }
 /* common styles  END */
 
 
+/* 0: MENU  START*/
+#top_bar{
+    text-align: center;
+}
+/* #logo{
 
+} */
+#menu ul{
+   display: flex;
+   justify-content: center;
+   margin-top: -20px;
+   margin-bottom: 40px;
+}
+#menu a{
+    font-size: 17px;
+    font-weight: 400;
+    color: orange;
+    border-left: 2px double;
+    padding-left: 10px;
+    border-image: linear-gradient(#e04747,#efa565);
+    border-image-slice: 2;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+}
+/* 0: MENU  END*/
 
 /* 1: hero section             start  */
 
